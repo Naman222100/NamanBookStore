@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using NamanBookStore.Models;
+using NamanBookStore.Models.ViewModels;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using NamanBookStore.Models;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
