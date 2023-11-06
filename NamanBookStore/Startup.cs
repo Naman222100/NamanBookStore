@@ -15,6 +15,7 @@ using System.Threading.Tasks;
 
 namespace NamanBookStore
 {
+
     public class Startup
     {
         public Startup(IConfiguration configuration)
@@ -63,7 +64,7 @@ namespace NamanBookStore
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
