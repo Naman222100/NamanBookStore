@@ -11,6 +11,11 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
   </ItemGroup>
 
+	<ItemGroup>
+		<Folder Include="Data\"/>
+		<Folder Include="Repository\IRepository"/>
+	</ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\NamanBooks.Models\NamanBooks.Models.csproj" />
     <ProjectReference Include="..\NamanBooks.Utility\NamanBooks.Utility.csproj" />
