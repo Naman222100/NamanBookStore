@@ -1,7 +1,9 @@
 ﻿11/6/2023
 
 2:04
-I created a readme file.
+I created a project using visual studio 2019 named NamanBookStore and created a readme file.
+After created a the project I ran it and it didn't work
+after that i commented oyt line number 7 under launchSetting.json file and then I Welcome page appeared.
 
 2:09
 I made some changes in the startup.cs file
@@ -14,6 +16,7 @@ I RAN MY PROJECT AND IT WORKED I CAN SEE THATT THE DROPDOWN TABLE IS ADDED TO MY
 
 
 THEN COMMING TO PART 2 
+At 3:00 on NOV 11, 2023
 I CLONNED MY PROJECT FROM GITHUB AND UPDATED THE APPSETTING.JSON FILE 
 AFTER THAT i TRIED  ADDING A NEW MIGRATION THAT IS ADDCATEGORYTODB.CS AND WHEN I RAN THAT MIGRATION IN PACKAGE MANAGER CONSOLE
 IT DID'NT WORK THEN AFTER CHANGING NAMANBOOKSTORE TO NAMANBOOKSTORE.DATA.ACCESS THEN TRIED ADDING THAT MIGRATION AGAIN IT WORKED.
